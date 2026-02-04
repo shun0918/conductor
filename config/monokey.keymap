@@ -27,6 +27,31 @@
             bindings = <&mkp MB3>;
             key-positions = <19 18>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        s-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+        };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <18 19>;
+        };
+
+        semi-colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <15 16>;
+        };
     };
 
     behaviors {
