@@ -23,11 +23,6 @@
             key-positions = <17 18>;
         };
 
-        mb3 {
-            bindings = <&mkp MB3>;
-            key-positions = <19 18>;
-        };
-
         esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
