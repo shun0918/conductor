@@ -47,6 +47,16 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <15 16>;
         };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <6 7>;
+        };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <7 8>;
+        };
     };
 
     behaviors {
