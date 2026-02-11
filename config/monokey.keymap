@@ -89,10 +89,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN           &kp HASH         &kp DOLLAR     &kp PERCENT            &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))   &kp LG(MINUS)  &kp LG(PLUS)           &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp LEFT_SHIFT        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp C_PREV     &kp C_NEXT             &kp PLUS       &kp COLON         &kp SEMI           &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES
-&kp ESCAPE            &trans                &trans           &trans         &trans        &mo 6    &kp LG(SPACE)  &trans                               &trans                &kp C_PLAY_PAUSE
+&kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR     &kp PERCENT            &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp LG(MINUS)  &kp LG(PLUS)           &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&kp LEFT_SHIFT        &trans                &trans          &trans         &trans                 &kp PLUS       &kp COLON         &kp SEMI           &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES
+&kp ESCAPE            &trans                &trans          &trans         &trans        &mo 6    &kp LG(SPACE)  &trans                               &trans                &trans
             >;
         };
 
@@ -107,10 +107,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))            &kp LC(LEFT)  &kp LC(DOWN)    &kp LC(UP_ARROW)  &kp LC(RIGHT)    &kp LC(DOWN_ARROW)
-&trans  &trans  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))        &kp LS(LC(NUMBER_6))            &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans
-&trans  &trans  &kp LS(LC(N7))        &kp LS(LC(N8))        &kp LS(LC(N9))                  &trans        &trans          &trans            &trans           &trans
-&trans  &trans  &trans                &trans                &trans                &trans    &trans        &trans                            &trans           &trans
+&kp C_PLAY_PAUSE   &trans           &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))            &kp LC(LEFT)  &kp LC(DOWN)    &kp LC(UP_ARROW)  &kp LC(RIGHT)    &kp LC(DOWN_ARROW)
+&kp C_PREVIOUS     &kp C_NEXT       &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))        &kp LS(LC(NUMBER_6))            &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LS(LC(N7))        &kp LS(LC(N8))        &kp LS(LC(N9))                  &trans        &trans          &trans            &trans           &trans
+&trans             &trans           &trans                &trans                &trans                &trans    &trans        &trans                            &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
