@@ -59,6 +59,11 @@
             key-positions = <7 8>;
             layers = <4>;
         };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <16 17>;
+        };
     };
 
     behaviors {
@@ -89,10 +94,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR     &kp PERCENT            &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp LG(MINUS)  &kp LG(PLUS)           &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp LEFT_SHIFT        &trans                &trans          &trans         &trans                 &kp PLUS       &kp COLON         &kp SEMI           &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES
-&kp ESCAPE            &trans                &trans          &trans         &trans        &mo 6    &kp LG(SPACE)  &trans                               &trans                &trans
+&kp EXCLAMATION       &kp AT_SIGN           &kp HASH        &kp DOLLAR  &kp PERCENT           &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp MINUS   &kp PLUS              &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&kp LEFT_SHIFT        &trans                &trans          &trans      &trans                &kp PLUS       &kp COLON         &kp SEMI           &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES
+&kp ESCAPE            &trans                &trans          &trans      &trans       &mo 6    &kp LG(SPACE)  &trans                               &kp LG(MINUS)         &kp LG(PLUS)
             >;
         };
 
