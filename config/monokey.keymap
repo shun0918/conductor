@@ -64,6 +64,11 @@
             bindings = <&kp COLON>;
             key-positions = <16 17>;
         };
+
+        capslock {
+            bindings = <&none>;
+            key-positions = <39 38>;
+        };
     };
 
     behaviors {
