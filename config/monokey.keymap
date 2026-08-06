@@ -119,8 +119,8 @@
             bindings = <
 &kp C_PLAY_PAUSE   &trans           &trans  &trans  &trans                  &kp LG(LS(LEFT_BRACKET))  &kp LC(LG(RIGHT_BRACKET))  &kp LC(LG(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &trans
 &kp C_PREVIOUS     &kp C_NEXT       &trans  &trans  &trans                  &kp LEFT                  &kp DOWN_ARROW             &kp UP_ARROW              &kp RIGHT_ARROW            &trans
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans                  &kp LA(NUMBER_1)          &kp LA(NUMBER_2)           &kp LA(NUMBER_3)          &kp LA(NUMBER_4)           &kp LA(NUMBER_5)
-&trans             &trans           &trans  &trans  &trans  &trans  &trans  &trans                                                                         &kp LA(NUMBER_6)           &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans                  &kp LA(N1)                &kp LA(N2)                 &kp LA(N3)                &kp LA(N4)                 &kp LA(N5)
+&trans             &trans           &trans  &trans  &trans  &trans  &trans  &trans                                                                         &kp LA(N6)                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
